@@ -1,0 +1,11 @@
+<h3>famous person</h3>
+<input [(ngModel)]="name" placeholder = "Модель" />
+
+
+    <button (click)="addItem(name)">add</button>
+    <ul>
+    <li *ngFor="let item of items">{{item}}</li>l
+</ul>
+    
+    
+    
