@@ -1,0 +1,13 @@
+<p>Moi rabotniki v dele =)</p>
+<p [style.fontSize]="'30px'" [style.fontFamily]="'Verdana'">тестирую добавление стилей дурацким способом</p>
+<ul>
+    <li *ngFor="let item of p1 ">{{item.name|uppercase}} прием прием первый первый я второй {{item.birthday| date:"mediumDate" }}</li>
+    <br>
+    <li *ngFor="let item of p1 ">{{item.city}}</li>
+</ul>
+<br>
+<ul>
+    
+    
+    <button><li *ngFor="let item of p1 " (click)="onSelect(item)" [class.selected]="item === Person">{{item.city}}</li></button>
+</ul>

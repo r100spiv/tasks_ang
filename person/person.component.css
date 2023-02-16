@@ -1,0 +1,23 @@
+li{
+    font-size: 25px;
+    
+    color:grey;
+}
+    
+ li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    }
+    body{
+        background-color: lightyellow;
+    }
+
+    .a1{
+        color:blue;
+        font-weight: bold;
+
+    }
+   li.selected{
+    background-color: darkmagenta;
+    color:white;
+   }
