@@ -1,0 +1,24 @@
+<body>
+    
+<h3>TOP-3 fighting jets in the world</h3>
+<hr>
+<ul>
+
+    <li *ngFor="let item of j1 "><button (click)="onSelect(item)">{{item.name}}</button></li>
+
+
+</ul>
+
+<div ><ul>
+    <img src="{{SelectedJets.pic}}" > 
+    <li class="l1">Name: {{SelectedJets.name}}</li>
+    <li class="l1">National origin: {{SelectedJets.country}}</li>
+    <li class="l1">Manufacturer: {{SelectedJets.manufacturer}}</li>
+    <li class="l1">First flight: {{SelectedJets.year|date:'longDate'}}</li>
+    <li class="l1">Price: {{SelectedJets.price|currency:"USD":'code'}}</li>
+    <p>{{SelectedJets.info}}</p>
+</ul>
+</div>
+<hr >
+<footer><b></b>NB!<b></b>Некоторые говорят что к истребителям 5 поколения относится маскальский СУ-57.В данном контенте вышеуказанное корыто не участвует потому что маскали просто по себе твари галимые а во вторых ни одной серийно-построенной машины.все прототипы.как обычно убогие понты свинособак.СУ - шляпа </footer>
+</body>
