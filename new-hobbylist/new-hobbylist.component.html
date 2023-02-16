@@ -1,0 +1,11 @@
+<body>
+<h3>new-hobbylist works!</h3>
+
+
+<ul class>
+    <li *ngFor="let item of items"  (click)="onSelect(item)"  [class.selected]="item === SelectedItem">
+    {{item.name}}
+    </li>
+    </ul>
+    <input [(ngModel)]="SelectedItem.name" placeholder= "name"/>
+</body> 
