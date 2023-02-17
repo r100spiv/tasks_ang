@@ -1,0 +1,22 @@
+
+<body>
+    <h3>My favorite pictures</h3>
+    
+    <br>
+    <br>
+    <br>
+<ul >
+    <li *ngFor="let item of g1" class="l1" ><button (click)="onSelect(item)" [class.selected]="item === SelectedGal"><img src="{{item.pic}}" ></button></li>
+</ul>
+<br>
+<br>
+<br>
+   <div>
+        <p><span>Name:</span> {{SelectedGal.name}}</p>
+        <p><span>Author:</span>  {{SelectedGal.author}}</p>
+        <p><span>Museum:</span>  {{SelectedGal.place}}</p>
+        <p><span>Year: </span> {{SelectedGal.year}}</p>
+        <p><span>Size: </span> {{SelectedGal.size}}</p>
+    </div>
+
+</body>
