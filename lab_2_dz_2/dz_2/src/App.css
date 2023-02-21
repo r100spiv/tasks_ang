@@ -1,0 +1,50 @@
+.d1{
+  
+  margin-left: 30px;
+  max-width: 450px;
+  
+  background-color: lightgoldenrodyellow;
+  outline: 4px solid darkgoldenrod; /* Чёрная рамка */
+  
+  border-radius: 0px; 
+  padding: 0px 5px 5px 15px;
+}
+img{
+  height: 350px;
+  width: 275px;
+}
+p{
+  color:darkslategray;
+  font-weight: bold;
+}
+
+.d2{
+  margin-left: 30px;
+  margin-top: 20px;
+  outline: 4px solid darkgreen; 
+  max-width: 470px;
+  background-color: lightcyan;
+  padding: 10px 10px 10px 10px;
+  margin-bottom: 10px;
+
+}
+
+.img2{
+  width: 250px;
+  height: 200px;
+  
+}
+.d3{
+  float:right;
+  margin-right: 30px;
+  
+
+}
+.m1{
+  color:green
+}
+ul{
+  color:darkgreen;
+  font-weight: bold;
+  list-style-type: none;
+}
